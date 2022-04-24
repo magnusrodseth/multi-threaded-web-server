@@ -1,8 +1,9 @@
-# Assignment 2
+# Multi-threaded web server
 
-## Developer Information
+## What is it?
 
-Developed by Magnus Rødseth, Julian Grande, Sebastian Sole.
+This project is a multi-threaded web server able to serve static content,
+written in C.
 
 ## Running the application
 
