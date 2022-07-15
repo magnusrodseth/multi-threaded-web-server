@@ -5,6 +5,16 @@
 This project is a multi-threaded web server able to serve static content,
 written in C.
 
+## Demo
+
+![Demo](./media/demo.gif)
+
+In the demo above, you can see the running multi-threaded web server on the left and a browser instance on the right. 
+
+The web server logs running worker threads, when a producer adds the file descriptor to the bounded buffer, and when a consumer extracts a file descriptor from the bounded buffer, etc... The web server also logs if the client tries to access a non-existent static site.
+
+The browser instance simply displays the HTML content that the web server hosts.
+
 ## Running the application
 
 ### With `make`
